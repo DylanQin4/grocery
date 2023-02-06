@@ -1,0 +1,76 @@
+body {
+    background-color: whitesmoke;
+}
+
+.navigator ul li {
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: lighter;
+}
+
+.navigator ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navigator .active {
+    border: 1px outset rgb(168, 166, 166);
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    font-weight: unset;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+
+.navigator .dropdown ul {
+    background-color: rgb(51, 48, 48);
+}
+
+.disconnectBtn {
+    padding-right: 15px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.disconnectBtn .btn:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.disconnectBtn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.content h2 {
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid black;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    font-weight: bold;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+
+.content .mainContent {
+    min-height: 600px;
+    padding: 0 5px;
+    background-color: rgba(187, 187, 187, 0.2);
+}
+
+.cart .row p {
+    margin: 0;
+}

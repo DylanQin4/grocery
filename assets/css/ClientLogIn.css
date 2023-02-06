@@ -1,0 +1,103 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="number"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.connect {
+    height: 60px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: transparent;
+    outline: none;
+    border: 3px solid #ffffff;
+    color: #000000;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .3s;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.connect:hover {
+    color: #000000;
+    border: 3px solid #000000;
+    animation: shake .3s linear;
+}
+
+.bouton {
+    height: 60px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: transparent;
+    outline: none;
+    border: 3px solid #ffffff;
+    color: #000000;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .3s;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+@keyframes shake {
+    50%,
+    100% {
+        transform: rotate(0);
+    }
+    25%,
+    75% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+}
+
+.bouton:hover {
+    color: #000000;
+    border: 3px solid #000000;
+    animation: shake .3s linear;
+}
